@@ -7,6 +7,11 @@
 //
 
 #import "ACAppDelegate.h"
+#import "ACListViewController.h"
+
+
+//----------------------------------------------------------------------------//
+
 
 @implementation ACAppDelegate
 
@@ -14,6 +19,13 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    
+    ACListViewController *lvc = [[ACListViewController alloc] initWithStyle:UITableViewStylePlain];
+    
+    UINavigationController *masterNav = [[UINavigationController alloc] initWithRootViewController:lvc];
+    
+    [self.window setRootViewController:masterNav];
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;

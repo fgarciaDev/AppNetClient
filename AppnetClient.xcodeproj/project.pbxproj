@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D38611F180F0EC400766000 /* ACListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D38611E180F0EC400766000 /* ACListViewController.m */; };
+		7D386122180F140400766000 /* ACPost.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D386121180F140400766000 /* ACPost.m */; };
+		7D386125180F141100766000 /* ACUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D386124180F141100766000 /* ACUser.m */; };
+		7D386129180F231E00766000 /* ACFeed.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D386128180F231E00766000 /* ACFeed.m */; };
+		7D38612D180F377300766000 /* ACUserStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D38612C180F377300766000 /* ACUserStore.m */; };
 		7DE9AF81180EDE1300B92ED4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DE9AF80180EDE1300B92ED4 /* Foundation.framework */; };
 		7DE9AF83180EDE1300B92ED4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DE9AF82180EDE1300B92ED4 /* CoreGraphics.framework */; };
 		7DE9AF85180EDE1300B92ED4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DE9AF84180EDE1300B92ED4 /* UIKit.framework */; };
@@ -32,6 +37,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7D38611D180F0EC400766000 /* ACListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACListViewController.h; sourceTree = "<group>"; };
+		7D38611E180F0EC400766000 /* ACListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACListViewController.m; sourceTree = "<group>"; };
+		7D386120180F140400766000 /* ACPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACPost.h; sourceTree = "<group>"; };
+		7D386121180F140400766000 /* ACPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACPost.m; sourceTree = "<group>"; };
+		7D386123180F141100766000 /* ACUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACUser.h; sourceTree = "<group>"; };
+		7D386124180F141100766000 /* ACUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACUser.m; sourceTree = "<group>"; };
+		7D386127180F231E00766000 /* ACFeed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACFeed.h; sourceTree = "<group>"; };
+		7D386128180F231E00766000 /* ACFeed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACFeed.m; sourceTree = "<group>"; };
+		7D38612B180F377300766000 /* ACUserStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACUserStore.h; sourceTree = "<group>"; };
+		7D38612C180F377300766000 /* ACUserStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACUserStore.m; sourceTree = "<group>"; };
 		7DE9AF7D180EDE1300B92ED4 /* AppnetClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppnetClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DE9AF80180EDE1300B92ED4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7DE9AF82180EDE1300B92ED4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -109,6 +124,16 @@
 			children = (
 				7DE9AF8F180EDE1300B92ED4 /* ACAppDelegate.h */,
 				7DE9AF90180EDE1300B92ED4 /* ACAppDelegate.m */,
+				7D38611D180F0EC400766000 /* ACListViewController.h */,
+				7D38611E180F0EC400766000 /* ACListViewController.m */,
+				7D386127180F231E00766000 /* ACFeed.h */,
+				7D386128180F231E00766000 /* ACFeed.m */,
+				7D386120180F140400766000 /* ACPost.h */,
+				7D386121180F140400766000 /* ACPost.m */,
+				7D386123180F141100766000 /* ACUser.h */,
+				7D386124180F141100766000 /* ACUser.m */,
+				7D38612B180F377300766000 /* ACUserStore.h */,
+				7D38612C180F377300766000 /* ACUserStore.m */,
 				7DE9AF92180EDE1300B92ED4 /* Images.xcassets */,
 				7DE9AF87180EDE1300B92ED4 /* Supporting Files */,
 			);
@@ -240,8 +265,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D38612D180F377300766000 /* ACUserStore.m in Sources */,
 				7DE9AF91180EDE1300B92ED4 /* ACAppDelegate.m in Sources */,
+				7D386122180F140400766000 /* ACPost.m in Sources */,
+				7D38611F180F0EC400766000 /* ACListViewController.m in Sources */,
+				7D386129180F231E00766000 /* ACFeed.m in Sources */,
 				7DE9AF8D180EDE1300B92ED4 /* main.m in Sources */,
+				7D386125180F141100766000 /* ACUser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,6 +472,7 @@
 				7DE9AFAB180EDE1300B92ED4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7DE9AFAC180EDE1300B92ED4 /* Build configuration list for PBXNativeTarget "AppnetClientTests" */ = {
 			isa = XCConfigurationList;
@@ -450,6 +481,7 @@
 				7DE9AFAE180EDE1300B92ED4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
